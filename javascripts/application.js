@@ -17,21 +17,3 @@ function load_repos_for_weshays() {
   });
 }
 
-
-
-      // <tr>
-      //   <td class="username">weshays</td>
-      //   <td class="repo_name active_repo">weshays/repo1</td>
-      // </tr>
-      // <tr>
-      //   <td class="username">weshays</td>
-      //   <td class="repo_name">weshays/repo2</td>
-      // </tr>
-      // <tr>
-      //   <td class="username">weshays</td>
-      //   <td class="repo_name inactive_repo">weshays/repo3</td>
-      // </tr>
-      // <tr>
-      //   <td class="username">weshays</td>
-      //   <td class="repo_name">weshays/repo4</td>
-      // </tr>
