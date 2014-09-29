@@ -2,15 +2,20 @@ p#intro {
   text-align: center
 }
 
+#search_form {
+  width: 100%;
+  margin: 10px auto 10px auto;
+}
+
 #repos {
   width: 50%;
   margin: 10px auto 10px auto;
 }
 
-td.active_repo {
+td.active_repo a {
   color: #009900;
 }
 
-td.inactive_repo {
+td.inactive_repo a {
   color: #990000;
 }

@@ -4,6 +4,9 @@
     <!-- Latest compiled and minified JavaScript for jQuery -->
     <script src="libs/jquery-2.1.1.min.js"></script>
 
+    <script src="libs/jquery.tipsy.js"></script>
+    <link rel="stylesheet" type="text/css" href="libs/tipsy.css">
+
     <!-- Latest compiled and minified CSS for Bootstrap-->
     <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
 
@@ -21,15 +24,21 @@
   </head>
 
   <body>
-   <p id="intro">
-    These are the repositories for weshays on github.com
-   </p>
+    <div id="search_form">
+      <input id="username" class="input" name="username">
+      <button onclick="load_data()">Load Data</button>
+    </div>
+
 
     <table id="repos" class="table table-striped table-hover table-bordered">
-      <tr>
-        <th>GitHub name</th>
-        <th>Repo</th>
-      </tr>
+      <thead>
+        <tr>
+          <th>GitHub name</th>
+          <th>Repo</th>
+        </tr>
+      </thead>
+      <tbody id="repo_list">
+      </tbody>
     </table>
 
   </body>
